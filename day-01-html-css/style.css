@@ -1,0 +1,21 @@
+.about{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.about_me_heading{
+    text-align: center;
+}
+
+.description p{
+    text-transform: uppercase;
+}
+
+
+
