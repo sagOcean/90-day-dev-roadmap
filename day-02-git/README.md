@@ -1,1 +1,3 @@
-this is just a test of how git works.
+This is day 2 of my learning web dev. Today I learned about how git works and how to work by creating a new branch. According to me, working on something by creating a branch is the safest and professional way. The learning itself was tough at first, especially from the official docs but when i spent some time reading it, I found the explanation was in a really simple plain english. I felt like the developers were personally giving me suggestions on what to do and how.
+
+Also, big cudos to Claude for guiding me through errors and confusions while creating a new branch, and making changes(making a new file, editing it...). I learned to add .gitignore file. One lesson that I want to pick from today's session was to always(and I mean ALWAYS) to create a seperate branch, work there and then later on, push it to main.
