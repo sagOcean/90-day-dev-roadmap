@@ -1,0 +1,1 @@
+I planned to do flexbox and card today on day 3 but its already late night. But I did complete the flexbox part. I created a navbar(of dropbox) using the concept of flexbox and flexbox only. By the end of today's session, I am sure about the concept of flex-wrap and flex-grow. There are other concepts as well but I will cover them later on in my journey, preferably tomorrow.
