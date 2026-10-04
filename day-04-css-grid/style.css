@@ -1,0 +1,38 @@
+.grid-containers{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+.container-1{
+    text-align: center;
+    border: 2px solid black;
+    
+}
+
+.container-1 ul{
+    list-style: none;
+}
+
+
+.container-2{
+    text-align: center;
+    border: 2px solid black;
+    
+}
+
+.container-2 ul{
+    list-style: none;
+}
+
+
+.container-3{
+    text-align: center;
+    border: 2px solid black;
+    
+}
+
+.container-3 ul{
+    list-style: none;
+}
