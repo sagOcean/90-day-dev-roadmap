@@ -1,46 +1,62 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>css grid practice</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="grid-containers">
-      <div class="container-1">
-        <h2>basic</h2>
-        <p>$2.00</p>
-        <ul class="features">
-          <li>✓ 5 Projects</li>
-          <li>✓ basic templates</li>
-          <li>✓ 5 GB Storage</li>
-          <li>✓ Email Support</li>
-          <li>✓ Basic Analytics</li>
-        </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>css grid practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2 class="price-listing">Price listing</h2>
+  <main class="main-container">
+
+
+    <section class="category basic">
+      <h2 class="price-category">Basic</h2>
+      <h3 class="additional-description">for teams and developers</h3>
+
+
+      <div class="price">
+
+        <p class="dollar">$0</p>
+        <p>/month</p>
+
       </div>
-      <div class="container-2">
-        <h2>pro</h2>
-        <p>$5.00</p>
-        <ul class="features">
-          <li>✓ 20 Projects</li>
-          <li>✓ premium templates</li>
-          <li>✓ 9 GB Storage</li>
-          <li>✓ Priority Support</li>
-          <li>✓ Advanced Analytics</li>
-        </ul>
+      <button class="button-to-join">Join for free</button>
+
+    </section>
+
+    <section class="category pro">
+      <h2 class="price-category">Pro</h2>
+      <h3 class="additional-description">Advanced collaboration and support for teams</h3>
+
+
+      <div class="price">
+
+        <p class="dollar">$2</p>
+        <p>/user/month</p>
+
       </div>
-      <div class="container-3">
-        <h2>premium</h2>
-        <p>$8.00</p>
-        <ul class="features">
-          <li>✓ Unlimited Projects</li>
-          <li>✓ All premium templates</li>
-          <li>✓ 15 GB Storage</li>
-          <li>✓ 24/7 Priority Support</li>
-          <li>✓ Advanced Analytics</li>
-        </ul>
+      <button class="button-to-join">Continue with team</button>
+
+    </section>
+
+    <section class="category premium">
+      <h2 class="price-category">Premium</h2>
+      <h3 class="additional-description">Security and flexible deployment</h3>
+
+
+      <div class="price">
+
+        <p class="dollar">$40</p>
+        <p>/user/month</p>
+
       </div>
-    </div>
-  </body>
+      <button class="button-to-join">Contact sales</button>
+
+    </section>
+    
+    
+  </main>
+</body>
 </html>
