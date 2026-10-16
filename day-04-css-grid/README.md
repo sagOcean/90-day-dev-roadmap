@@ -9,3 +9,7 @@ I will update my changes here tomorrow.
 october 5th, 2026, 3:55pm
 
 I have completed one exercise of day 4 today and that is to make the pricing section. Now, another task is left and that is to make a dashboard using grid concepts. I'll do it at night. I haven't started day 5, but let's see.
+
+october 16th, 2026, 3:51pm
+
+Finally, I completed my next grid excercise: stat-dashboard. Sorry for this delay. I mainly understood about repeat() and minmax() and also the work of auto-fill and auto-fit.
