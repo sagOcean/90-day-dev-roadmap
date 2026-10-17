@@ -1,0 +1,52 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    
+    
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    /* position: fixed; */
+}
+
+.logo h1{
+    height: 40px;
+    margin: 0;
+    /* position: relative; */
+}
+
+.logo{
+    display: flex;
+    width: 200px;
+    /* height: fit-content; */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    list-style: none;
+    position:relative;
+}
+
+.nav-items{
+    display: flex;
+    width: 500px;
+   gap: 30px;
+   justify-content: flex-end;
+   align-items: center;
+   list-style: none;
+   
+}
+
+.nav-items button{
+    height: 40px;
+    width: 89px;
+}
+
+@media(max-width:700px){
+    .changes{
+        display: none;
+    }
+}
