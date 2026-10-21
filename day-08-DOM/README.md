@@ -1,0 +1,3 @@
+21st October, 2026
+
+Yesterday, I kept writing and making the logic but still my code wasn't right. So, today I asked AI to refine my existing code. For loop was used to hide all the code in the initialization phase. The isAlreadyTrue variable stores whether the button was clicked or not. Other things are kept in comments so check that out as well. You can also see the logic I'd tried building yesterday on the top of the main program(it is also commented out).
