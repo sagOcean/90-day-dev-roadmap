@@ -28,7 +28,7 @@ let total = (n1,n2,n3)=>{
 
 if(total(1,2,4)===3700){
 
-    console.log(total(1,2,4)===3700)
+    console.log(total(1,2,4)===3700) //prints true or false
 
     console.log("total:"+total(1,2,4));
 }
