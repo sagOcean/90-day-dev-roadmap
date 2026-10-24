@@ -49,3 +49,77 @@
     transform: translateY(-30px);
     box-shadow: 2px 3px 7px red; /* shorthand for horizontal-offset(shadow on x-axis, +ve on right and -ve on left), vertical-offset(shado(w on y-axis, +ve on up and -ve on down), blur-radius(Controls how soft or blurry the shadow looks), color(color of the shadow)*/
 }
+
+/* navbar css */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.logo h1{
+    height: 40px;
+    margin: 0;
+}
+
+.logo{
+    display: flex;
+    width: 200px;
+    /* height: fit-content; */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.nav-items{
+    display: flex;
+    width: 500px;
+   gap: 30px;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.nav-items button{
+    height: 40px;
+    width: 89px;
+}
+
+.nav-items div{
+    flex-grow: 1;
+        
+}
+
+.nav-items div span{
+    position: relative;
+    cursor: pointer;
+    width:fit-content;
+}
+
+
+
+.nav-items div span::after{
+    content:"";
+    position: absolute;
+    left:0;
+    bottom:-3px;
+    width: 0;
+    height: 2px;
+    background-color: #000000;
+    transition: width 0.3s ease-out;
+}
+
+.nav-items div span:hover::after{
+    width: 100%;
+}
+
+
+
