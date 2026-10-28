@@ -1,0 +1,14 @@
+.buttons{
+    display: flex;
+    gap:20px;
+}
+
+.counter{
+    height: 8rem;
+    width: 24rem;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
