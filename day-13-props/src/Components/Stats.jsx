@@ -4,9 +4,9 @@ function Stats({stats}) {
   return (
     <>
       <div className="stats">
-        <div className="stat">{stats[0]}</div>
-        <div className="stat">{stats[1]}</div>
-        <div className="stat">{stats[2]}</div>
+        <div className="stat">{stats.followers}</div>
+        <div className="stat">{stats.following}</div>
+        <div className="stat">{stats.post}</div>
       </div>
     </>
   );

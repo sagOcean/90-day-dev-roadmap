@@ -13,7 +13,7 @@ function App() {
 
   let description = `Hi my name is ${name} and I am a ${job}. I have been working in this industry for 10 yrs.`
 
-  let stats = [100,"fancy","good"]
+  let stats = {followers:100,following:"fancy",post:"good"}
 
   return <>
   
@@ -24,4 +24,4 @@ function App() {
   
 }
 
-export default App
+export default App;
