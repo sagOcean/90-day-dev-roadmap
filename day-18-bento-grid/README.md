@@ -1,0 +1,3 @@
+5th November, 2026
+
+Sorry guys, I am trying a new way of learning so the code is incomplete but I am going to create a new folder and do my tasks. Till now, I was just typing the code the AI provided and tweaked its values but I thought that's not a good way of learning and I feel like a copy paster. So, I am trying a new approach where AI will tell me what to do, give some hints and I type out all the code myself.
