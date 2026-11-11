@@ -12,7 +12,7 @@ function App() {
       opacity: 1,
       transition: {
         staggerChildren: 0.2, //wait 0.2s before previous card
-        delayChildren: 0.1,
+        delayChildren: 0.1, // wait 0.1s before starting the animation of first child
       },
     },
   };
@@ -54,7 +54,7 @@ function App() {
             variants={cardVariants}
             onClick={() => setActiveTab("core")}
             whileHover="hover"
-            transition={{ duration: 0.2 }}
+            
             className="md:col-span-2 w-full bg-zinc-900/80 border border-zinc-800 rounded-3xl p-8 relative overflow-hidden cursor-pointer flex flex-col justify-between"
           >
             <div className="text-xs font-semibold text-indigo-400 uppercase tracking-widest">
@@ -95,7 +95,7 @@ function App() {
           <motion.div
             variants={cardVariants}
             whileHover="hover"
-            transition={{ duration: 0.2 }}
+            
             className=" md:col-span-1 w-full bg-zinc-900/80 border border-zinc-800 rounded-3xl p-8 relative overflow-hidden cursor-pointer flex flex-col justify-between"
           >
             <h1 className="text-2xl font-bold tracking-tight mt-2 text-white">
@@ -110,7 +110,7 @@ function App() {
             onClick={() => setActiveTab("analytics")}
             variants={cardVariants}
             whileHover="hover"
-            transition={{ duration: 0.2 }}
+            
             className=" w-full bg-zinc-900/80 border border-zinc-800 rounded-3xl p-8 relative overflow-hidden cursor-pointer flex flex-col justify-between md:col-span-3"
           >
             <div className="text-xs font-semibold text-indigo-400 uppercase tracking-widest">
