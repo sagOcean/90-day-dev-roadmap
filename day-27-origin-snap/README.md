@@ -17,3 +17,7 @@ then, on child div/elements, you can add these:
           dragElastic={0.2}//set whatever you like
           dragSnapToOrigin // this will put that element in the original place once you leave cursor
 
+
+19th November, 2026
+
+I didnt feel like doing anything but I checked and reviewed my yesterday's code, the bare minimum.
