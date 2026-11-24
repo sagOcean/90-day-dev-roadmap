@@ -1,11 +1,11 @@
 function Navbar(){
     return <>
-    <div className="navbar flex  ">
+    <div className="navbar flex justify-between ">
         <div className="logo ">
           <span className="text-teal-500 font-bold">&lt;/&gt;</span>
           <span className="font-medium text-white">Sagar Trital</span>
         </div>
-        <div className="nav-elem flex  ">
+        <div className="nav-elem flex gap-3 text-white ">
           <div>Projects</div>
           <div>About</div>
           <div>Contact</div>
