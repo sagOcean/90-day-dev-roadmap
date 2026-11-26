@@ -1,4 +1,5 @@
-import my_img from "../assets/myImg.png";
+// import my_img from "../assets/myImg.png";
+import ghibli_img from "../assets/ghibli.png"
 
 function About() {
   return (
@@ -22,18 +23,18 @@ function About() {
           </p>
         </div>
       </div> */}
-      <div className="min-h-screen flex items-center justify-center px-6 py-12">
+      <div className="min-h-screen flex items-center justify-center px-6 py-12" id="about">
         <div
           className="w-full max-w-6xl grid md:grid-cols-2 
                   bg-[#1e2a40] rounded-3xl p-3 gap-10"
         >
           {/* Image section */}
           <div
-            className="relative bg-orange-600 rounded-2xl 
-                    overflow-hidden min-h-[600px] flex justify-center"
+            className="relative  rounded-2xl 
+                    overflow-hidden min-h-[600px] flex justify-center "
           >
             <img
-              src={my_img}
+              src={ghibli_img}
               alt="my_image"
               className="h-full w-full object-contain object-bottom"
             />
@@ -49,7 +50,8 @@ function About() {
                 A little about me
               </h1>
 
-              <p className="text-slate-400 leading-relaxed font-medium md:text-base">
+              <p className="text-slate-400 leading-relaxed font-medium text-base 
+              md:text-lg ">
                 Hi, I’m Sagar Trital—a Full Stack Developer who loves turning
                 complex problems into simple, functional, and well-designed
                 software. Whether I’m architecting a database schema or
