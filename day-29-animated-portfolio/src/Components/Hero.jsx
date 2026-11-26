@@ -1,4 +1,5 @@
-import my_img from "../assets/myImg.png";
+
+import ghibli_img from "../assets/ghibli.png"
 
 function Hero() {
   return (
@@ -6,8 +7,8 @@ function Hero() {
       <div className="min-h-screen bg-[#1e2a40] flex items-start justify-center">
         <div className="w-full max-w-6xl mx-[3rem]  px-3 grid grid-cols-1 md:grid-cols-2 items-center gap-8">
           {/* Text section */}
-          <div className="flex flex-col justify-center gap-6">
-            <h1 className="text-white font-bold text-4xl md:text-8xl">
+          <div className="flex flex-col justify-center gap-15">
+            <h1 className="text-white font-bold text-8xl md:text-[10rem] leading-none pt-20">
               Hi, I am Sagar.
             </h1>
 
@@ -20,9 +21,9 @@ function Hero() {
           {/* Image section */}
           <div className="flex justify-center md:justify-center">
             <img
-              src={my_img}
+              src={ghibli_img}
               alt="my_image"
-              className="h-auto max-h-[40rem] w-auto max-w-full object-contain"
+              className="h-auto max-h-[42rem] w-auto max-w-full object-contain"
             />
           </div>
         </div>
